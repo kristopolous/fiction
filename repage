@@ -1,0 +1,2 @@
+#!/bin/bash
+cat $1 | tr '\n' '@@' | sed s'/@@/\n\n/g' |sed s'/ @/ /g' | sed s'/@/ /g' | fold -s -w $2
