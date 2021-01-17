@@ -12,4 +12,6 @@ He thinks "As an artist, I need to be a fraud for the protection, the comfort of
 He starts to plan his escape. A very elaborate phony death could be possible. He knows he'd never want to come back. Not to his wife, not to his former friends, he wasn't with them anymore.  The same feeling he had in the 1960s in the mod culture, surrounded by foreign european sensibilities he felt again.
 Instead of popping amphetamines, they were smoking and drinking the nights away. A life that was just a bunch of strung-together wreckless las vegas blackouts. 
 By this time he had found out about organics and the natural foods movement. He would just be ordering water and watch his friends get sloshed at night wishing he was anywhere else, just not there.
-After reading the Casteneda books he was mezmerized with the idea of escaping to mexico.
+After reading the Casteneda books he was mezmerized with the idea of escaping to mexico - a rural village with no television reception. A place where you may find an elvis record but probably no device to listen to it with.
+He could collect his thoughts, be with nobody but himself for a while, and then find out where to go from there.
+
