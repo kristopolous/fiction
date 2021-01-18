@@ -27,4 +27,4 @@ He could collect his thoughts, be with nobody but himself for a while, and then 
 12 hour ago I was at a night club in las vegas. Now here I am, it's early morning and I'm surrounded by a forest in mexico. As the plane lifts off the ground I realize (some scripture about dreams slipping to reality). I am just as alone as I was yesterday but now it's no longer just a feeling, it's a wonderful, beautiful reality.
 
 Today is the first day of my new life. 
-
+--- I think it should end here - in the 1970s, and talk about a second volume that he intends to write and maybe, perhaps, it will be as cathartic as the first to write.
