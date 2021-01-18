@@ -14,4 +14,17 @@ Instead of popping amphetamines, they were smoking and drinking the nights away.
 By this time he had found out about organics and the natural foods movement. He would just be ordering water and watch his friends get sloshed at night wishing he was anywhere else, just not there.
 After reading the Casteneda books he was mezmerized with the idea of escaping to mexico - a rural village with no television reception. A place where you may find an elvis record but probably no device to listen to it with.
 He could collect his thoughts, be with nobody but himself for a while, and then find out where to go from there.
+--- plan of escape
+
+--- a dead elvis impersonator just by luck?
+
+--- final night
+--- his slipaway
+
+--- an airport in the mountains of sonora
+--- the pilot says he'll return in 90 days.
+
+12 hour ago I was at a night club in las vegas. Now here I am, it's early morning and I'm surrounded by a forest in mexico. As the plane lifts off the ground I realize (some scripture about dreams slipping to reality). I am just as alone as I was yesterday but now it's no longer just a feeling, it's a wonderful, beautiful reality.
+
+Today is the first day of my new life. 
 
