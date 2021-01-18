@@ -24,7 +24,9 @@ He could collect his thoughts, be with nobody but himself for a while, and then 
 --- an airport in the mountains of sonora
 --- the pilot says he'll return in 90 days.
 
-12 hour ago I was at a night club in las vegas. Now here I am, it's early morning and I'm surrounded by a forest in mexico. As the plane lifts off the ground I realize (some scripture about dreams slipping to reality). I am just as alone as I was yesterday but now it's no longer just a feeling, it's a wonderful, beautiful reality.
+12 hour ago I was at a night club in las vegas. Now here I am, it's early morning and I'm surrounded by a forest in mexico. As the plane lifts off the ground I think back to bhagavad gita 15.7, "The embodied souls in this material world are My eternal fragmental parts. But bound by material nature, they are struggling...". I am just as alone as I was yesterday but now it's no longer just a feeling, it's a wonderful, beautiful reality.  "...struggling very hard with the six senses, including the mind". I can hear and taste the now. Life has never felt this real.  As the plane sweeps over the horizon off into the distance, I turn around, I see the single suitcase, the water canteen, and the man waiting in the truck for me to get in. 
 
-Today is the first day of my new life. 
+Today is the first day of my life. Finally, I can see the perpetual now that Watts talked about and finally, I know it is actually there.
+
+
 --- I think it should end here - in the 1970s, and talk about a second volume that he intends to write and maybe, perhaps, it will be as cathartic as the first to write.
