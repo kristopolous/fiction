@@ -1,4 +1,7 @@
-Pitch:
+
+Background story on growing up
+Ed Sullivan show, access to fame and fortune.
+You spend today working towards what you thought you wanted yesterday.
 
 Elvis becomes disillusioned with fame
 He seeks to find other realities to experience
