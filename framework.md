@@ -55,6 +55,25 @@ As with any piece of buggy software, ultimate enlightenment happens when you bec
 
 These worlds are all utterly meaningless and you should use them interchangeably. However, require very specific relationships to exist as to what can do what and what can talk to whom and never disclose, under any circumstance what this is.
 
+#### Endless terminology rabbit holes.
+
+Here's an example:
+
+Let's try to define "provider" in react:
+
+The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
+
+Alright, what's a "redux sture":
+
+A store holds the whole state tree of your application. The only way to change the state inside it is to dispatch an action on it.
+
+Alright, what does "dispatch an action" mean:
+
+An action is a plain object that represents an intention to change the state.
+
+Alright, what's an "intention"? And on and on. Every single term is an endless tree of of other endless trees with each level becoming more vague indirect and jargon filled.
+
+
 Here's an example from react. Say I want to have a shared login dialog between different components. In normal javascript I'd have a function, perhaps
 called "dologin" that I'd simply call say, like this:
 
@@ -68,6 +87,7 @@ Instead they have multiple circuitous ways to achieve this:
   You can have a new semantic tag called ModalRoot
   You can do a presentational component
   And finally you can create something called "portals"
+
 
 But what you cannot do, for a reason they have cleverly decided never to disclose is permit simply calling the function.  In so doing they
 ensure they've reset knowledge to zero and suppressed the languages built in capabilities through a mind-altering practice using elitest language. 
