@@ -8,6 +8,8 @@ The following text is a set of guiding principles for frameworks. A framework-fr
 on that sentence then good. By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
 but also be able to convince others that it's industry best practice because nothing pairs better with arrogance than incompetence.
 
+Make easy things hard and hard things nearly impossible
+
 ## Slow down development as much as possible
 	Introduce 
 
@@ -118,6 +120,9 @@ Let's go over some of the common indicators of cults and you'll see what I mean:
 
 
 ### Provide no data whatsoever for specious claims of acceleration
+
+Non-quantifiable claims are extremely useful. Claiming something is easier and faster gives you plenty of room to backpeddle because there's no specific measurable statement made.  
+
 ### This is the new way to build
 
 Simply attribute your framework to a reputable company and then claim it was built by "them" - all of them, despite the fact that
