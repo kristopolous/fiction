@@ -52,6 +52,23 @@ As with any piece of buggy software, ultimate enlightenment happens when you bec
 	For instance, stories, actions, models, views, fixtures, hooks, interfaces, providers, 
 These worlds are all utterly meaningless and you should use them interchangeably. However, require very specific relationships to exist as to what can do what and what can talk to whom and never disclose, under any circumstance what this is.
 
+Here's an example from react. Say I want to have a shared login dialog between different components. In normal javascript I'd have a function, perhaps
+called "dologin" that I'd simply call say, like this:
+
+    dologin();
+
+Something this direct is completely unadvisable. This kind of simplicity should be made impossible. React does indeed make such things not possible.
+
+Instead they have multiple circuitous ways to achieve this:
+
+  Instead of calling a function you can "dispatch" an "action". Then you have a "reducer" that "consumes" the action.
+  You can have a new semantic tag called ModalRoot
+  You can do a presentational component
+  And finally you can create something called "portals"
+
+But what you cannot do, for a reason they have cleverly decided never to disclose is permit simply calling the function.  In so doing they
+ensure they've reset knowledge to zero and suppressed the languages built in capabilities through a mind-altering practice using elitest language. 
+Now all you need is a huge time commitment to understand it.
 
 Change it completely 
 
