@@ -50,6 +50,7 @@ As with any piece of buggy software, ultimate enlightenment happens when you bec
   Install Software    Consume a module
 
 	For instance, stories, actions, models, views, fixtures, hooks, interfaces, providers, 
+
 These worlds are all utterly meaningless and you should use them interchangeably. However, require very specific relationships to exist as to what can do what and what can talk to whom and never disclose, under any circumstance what this is.
 
 Here's an example from react. Say I want to have a shared login dialog between different components. In normal javascript I'd have a function, perhaps
@@ -70,18 +71,30 @@ But what you cannot do, for a reason they have cleverly decided never to disclos
 ensure they've reset knowledge to zero and suppressed the languages built in capabilities through a mind-altering practice using elitest language. 
 Now all you need is a huge time commitment to understand it.
 
-Change it completely 
+#### Change it completely 
 
 	Move things around every version for instances pretend you have 
 
 
-Make things inflexible by crippling expression and compatibility 
+#### Make things inflexible by crippling expression and compatibility 
 
 
 ## Getting users
-### Pretend this is the most exciting thing in your lifetime
+Now that you have a dadaist interpretation of James Joyce that changes and blows like the wind, it's time to convince people to use it.
 
-Now that you have a dadaist iterpretation of James Joyce that changes and blows like the wind, it's time to convince people to use it.
+### Pretend this is the only thing that serious professionals use
+Here's some examples of leads from the various projects
+
+  Angular: The modern web developer's platform
+  Laravel: The PHP Framework for Web Artisans
+  Django: The Web framework for perfectionists with deadlines 
+
+Effectively the form is the following: 
+  
+  Name: We're the best and we're only for smart people
+
+By doing this the agency for failure is moved from the project to the user. You plant and nurture their self doubt so when they fail
+using your software they blame their own inadequacies and not your precious creation.
 
 ### Remember, this is a cult.
 
