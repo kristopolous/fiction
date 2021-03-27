@@ -73,6 +73,8 @@ An action is a plain object that represents an intention to change the state.
 
 Alright, what's an "intention"? And on and on. Every single term is an endless tree of of other endless trees with each level becoming more vague indirect and jargon filled.
 
+We're of course dealing with concrete deterministic state computers. So there is a crisp programmatic definition of all of these things. The code is something specific. This method of handwaving is crucial for never actually disclosing or promising what that thing is so that if something goes wrong you always have plausible deniability.
+
 
 Here's an example from react. Say I want to have a shared login dialog between different components. In normal javascript I'd have a function, perhaps
 called "dologin" that I'd simply call say, like this:
