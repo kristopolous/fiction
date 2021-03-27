@@ -1,6 +1,6 @@
 # Principles of framework design
 
-Whether you're a contracting firm that wants to lock your client list in by using a technology stack that nobody else knows or your an 
+Whether you're a contracting firm that wants to lock your client list in by using a technology stack that nobody else knows or you're an 
 independent developer who wants to increase the word count of your resume to try and negotiate a higher pay there's nothing quite like 
 creating your own framework.
 
