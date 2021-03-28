@@ -213,15 +213,15 @@ the arbitrary goals set out by the designers of the language.
 Now that you have a dadaist interpretation of James Joyce that changes and blows like the wind, it's time to convince people to use it.
 
 ### Pretend this is the only thing that serious professionals use
-Here's some examples of leads from the various projects
+Here's some examples of leads on the homepage of various success stories we've talked about up to now
 
-  Angular: The modern web developer's platform
-  Laravel: The PHP Framework for Web Artisans
-  Django: The Web framework for perfectionists with deadlines 
+ * Angular: The modern web developer's platform
+ * Laravel: The PHP Framework for Web Artisans
+ * Django: The Web framework for perfectionists with deadlines 
 
 Effectively the form is the following: 
   
-  Name: We're the best and we're only for smart people
+ * Name: We're the best and we're only for smart people
 
 By doing this the agency for failure is moved from the project to the user. You plant and nurture their self doubt so when they fail
 using your software they blame their own inadequacies and not your precious creation.
