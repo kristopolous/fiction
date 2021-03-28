@@ -16,10 +16,10 @@ able to understand and approach frameworks better in the future by applying the 
 ## What is a framework anyway?
 A framework 
   
-  breaks core assumptions about a language or system
-  limits what a user is permitted to do
-  increases complexities by adding new abstractions
-  non-specific specifications by using unclear and imprecise language
+  * breaks core assumptions about a language or system
+  * limits what a user is permitted to do
+  * increases complexities by adding new abstractions
+  * non-specific specifications by using unclear and imprecise language
 
 
 ### Success story: Chef
