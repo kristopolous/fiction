@@ -115,13 +115,13 @@ with the underlying tools they should have to question everything and effectivel
 
 Here is a helpful sliding scale to see how far you are in your goals of confusing all users:
 
-Mild criticisms
-Profanity
-Screaming
-Threats of violence to you
-Crying and isolation
-Threats of violence to themselves
-Complete Dissapearance
+ * Mild criticisms
+ * Profanity
+ * Screaming
+ * Threats of violence to you
+ * Crying and isolation
+ * Threats of violence to themselves
+ * Complete Dissapearance
 
 As with any piece of buggy software, ultimate enlightenment happens when you become the primary source of your users psychiatric issues.
 
@@ -166,10 +166,10 @@ Something this direct is completely unadvisable. This kind of simplicity should 
 
 Instead they have multiple circuitous ways to achieve this:
 
-  Instead of calling a function you can "dispatch" an "action". Then you have a "reducer" that "consumes" the action.
-  You can have a new semantic tag called ModalRoot
-  You can do a presentational component
-  And finally you can create something called "portals"
+ * Instead of calling a function you can "dispatch" an "action". Then you have a "reducer" that "consumes" the action.
+ * You can have a new semantic tag called ModalRoot
+ * You can do a presentational component
+ * And finally you can create something called "portals"
 
 
 But what you cannot do, for a reason they have cleverly decided never to disclose is permit simply calling the function.  In so doing they
