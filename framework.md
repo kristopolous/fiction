@@ -8,13 +8,54 @@ The following text is a set of guiding principles for frameworks. A framework-fr
 on that sentence then good. By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
 but also be able to convince others that it's industry best practice because nothing pairs better with arrogance than incompetence.
 
-Make easy things hard and hard things nearly impossible
 
 ## Slow down development as much as possible
-	Introduce 
+
+Frameworks work at a subconcious level. They permit the users to be constantly busy as they nurse and babysit codebase that would otherwise have
+long term stability all while staking the claim that it's the fastest and easiest solution.
+
+This means people become unfirable because 
+
+ * the systems will not continue to function without them and
+ * the code has to constantly be rewritten in order to achieve the same ends
+
+Also it permits the users to go on constant employer funded vacations to conferencces and training sessions.
+
+From a professional aspect, the primary goals of any framework are to provide the users with the following:
+
+ * Job security by ensuring brittle applications
+ * Endless tasks by ensuring endless complexity
+ * A sense of elitism and entitlement
+ * No expectations of deliverables
+ * Be vague enough so blame can get shifted if things break
+
+By making every project asymptotically impossible to deliver vaporware.
 
 ## Make things as difficult as you can
 ### The maxim of maximum unreasonability
+
+Make easy things hard and hard things nearly impossible. 
+
+### Success Story: Moment.js
+Javascript's Date object takes a little bit of work to understand. Because nobody was promoting how to properly used it this provided a
+product/market fit for a significant framework based entirely around dates.
+
+Let's say in normal javascript I wanted to subtract two `Date` objects. Let's do that:
+
+    let difference = Date() - date2;
+
+The problem with the above code is that it's simple and easy to understand. There is no elitism behind it and complexity is completely absent.
+Additionally it will most likely be functional indefinitely and it's pretty clear what is happening.
+
+Here is an example of how moment.js fixes all those problems.
+
+    let difference = moment.utc( moment.duration( moment().diff( date2 ) ).asMilliseconds());
+
+By requiring a dependency chain of 4 nested functions to do the same operation moment.js achieves all the goals of a framework. There is
+no assurance of the stability, long term support, or continued relationship of any of those components. Additionally the code has been
+made impenetrable so only an inner-circle of acclimated developers will have any idea what is going on.
+
+Additionally there's a sense of accomplishement by complicating the task to make it feel like it's much more significant than it actually is.
 
 ## Break as many ways to diagnose defects as you can find
 ### Make sure stack traces are utterly worthless
@@ -71,7 +112,9 @@ Alright, what does "dispatch an action" mean:
 
 An action is a plain object that represents an intention to change the state.
 
-Alright, what's an "intention"? And on and on. Every single term is an endless tree of of other endless trees with each level becoming more vague indirect and jargon filled.
+Alright, what's an "intention"? And on and on. 
+
+Every single term is an endless tree of of other endless trees with each level becoming more vague indirect and jargon filled.
 
 We're of course dealing with concrete deterministic state computers. So there is a crisp programmatic definition of all of these things. The code is something specific. This method of handwaving is crucial for never actually disclosing or promising what that thing is so that if something goes wrong you always have plausible deniability.
 
@@ -101,6 +144,8 @@ Now all you need is a huge time commitment to understand it.
 
 
 #### Make things inflexible by crippling expression and compatibility 
+
+"The problem with language X is that it allows you to do anything you want."
 
 
 ## Getting users
