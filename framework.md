@@ -42,7 +42,7 @@ So no longer are we writing a script that does `apt install tool` instead all ou
  * policy (and how it's applied)
  * node object (what it means to be available, maintained, and registered)
 
-So we're no longer configuring systems. Instead we deep into a world of new abstractions and are fundamentally limited by these abstractions.
+So we're no longer configuring systems. Instead we are deep into a world of new abstractions and are fundamentally limited by these abstractions. By miring their users in endless confusion opscode (now Progress) was able to commercialize this opportunity to a successful company. 
 
 ## Slow down development as much as possible
 
