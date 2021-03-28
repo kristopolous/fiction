@@ -10,6 +10,39 @@ project using scholarly literature on cults and organizational anti-pattern stud
 By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
 but also be able to convince others that it's industry best practice. 
 
+For users of frameworks the text helps by outlining the social dynamics and purpose for the decisions made in the popular frameworks. You'll be
+able to understand and approach frameworks better in the future by applying the principles which lead to their popularity.
+
+## What is a framework anyway?
+A framework 
+  
+  breaks core assumptions about a language or system
+  limits what a user is permitted to do
+  increases complexities by adding new abstractions
+  non-specific specifications by using unclear and imprecise language
+
+
+### Success story: Chef
+When the founder of chef in 2008 decided to create a framework for sysadmin tasks how would he have known it would lead to a $70 million/year company and an acquisition 12 years later.
+
+The key to the success was to introduce entirely new abstractions without being specific about their implementations. By making documentation essentially always written as marketing material chef successfully obscured how to use their software
+
+This was essential for the early adoption of the software. For instance take the overview documentation from 2012 where you would find statements such as this:
+
+> The Chef Server acts as a hub that is available to every node in the Chef organization. This ensures that the right cookbooks (and recipes) are available, that the right policies are being applied, that the node object used during the previous Chef run is available to the current Chef run, and that all of the nodes that will be maintained by Chef are registered and known to the Chef Server.
+
+So no longer are we writing a script that does `apt install tool` instead all our core assumption are changed. We have new terms to learn such as:
+
+ * Chef server
+ * hub
+ * node
+ * Chef organization
+ * cookbook
+ * recipe
+ * policy (and how it's applied)
+ * node object (what it means to be available, maintained, and registered)
+
+So we're no longer configuring systems. Instead we deep into a world of new abstractions and are fundamentally limited by these abstractions.
 
 ## Slow down development as much as possible
 
