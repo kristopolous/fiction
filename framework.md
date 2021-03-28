@@ -1,12 +1,14 @@
-# Principles of framework design
+# Principles of Framework Design
 
 Whether you're a contracting firm that wants to lock your client list in by using a technology stack that nobody else knows or you're an 
 independent developer who wants to increase the word count of your resume to try and negotiate a higher pay there's nothing quite like 
 creating your own framework.
 
-The following text is a set of guiding principles for frameworks. A framework-framework if you will. If you went back and did a double take
-on that sentence then good. By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
-but also be able to convince others that it's industry best practice because nothing pairs better with arrogance than incompetence.
+The following text is a set of guiding principles for frameworks. A framework-framework if you will. The text outlines how to structure your
+project using scholarly literature on cults and organizational anti-pattern studies that ensure job security regardless of someone's competency.
+
+By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
+but also be able to convince others that it's industry best practice. 
 
 
 ## Slow down development as much as possible
