@@ -224,7 +224,10 @@ Effectively the form is the following:
  * Name: We're the best and we're only for smart people
 
 By doing this the agency for failure is moved from the project to the user. You plant and nurture their self doubt so when they fail
-using your software they blame their own inadequacies and not your precious creation.
+using your software they blame their own inadequacies and not your framework. 
+
+This structure means that despite the person's failure to succeed with your software they will continue to promote it because their failures
+with the tool are presumed to only be through their own personal imperfections.
 
 ### Remember, this is a cult.
 
