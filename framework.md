@@ -143,9 +143,32 @@ Now all you need is a huge time commitment to understand it.
 	Move things around every version for instances pretend you have 
 
 
-#### Make things inflexible by crippling expression and compatibility 
+### Make things inflexible by crippling expression and compatibility 
 
 "The problem with language X is that it allows you to do anything you want."
+
+#### Success Story: AngularJS
+
+When you have the full capabilities of a general purpose language such as Javascript there is possibility that even with careful
+precautions users may still be able to produce usable robust software.
+
+The developers at AngularJS had a wonderful way of addressing this. By removing core language syntax they force things to either
+be impossible or far more difficult than they would have otherwise.  
+
+The core decision was what to remove while making some things nearly, but not actually impossible. Make it just enough so that documentation
+and marketing can be written for the feature but then once someone starts to use it it becomes effectively (but not actually) impossible to
+achieve anything.
+
+The subset of features they removed from the language are as follows:
+
+ * any assignment operator.
+ * increment and decrement (++, --) since they are just hidden assignment operators
+ * chaining epxressions with ; or ,
+ * the new operator since it creates things
+
+Thus in order to achieve these ends a whole new vocabulary has to be developed. Not only does this achieve the job-security goals but it
+also ticks off many of the core cult features in order to get user adoption. By derailing the task at hand, the users are now focused on
+the arbitrary goals set out by the designers of the language.
 
 
 ## Getting users
