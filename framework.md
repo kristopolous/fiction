@@ -82,11 +82,14 @@ Let's say in normal javascript I wanted to subtract two `Date` objects. Let's do
 The problem with the above code is that it's simple and easy to understand. There is no elitism behind it and complexity is completely absent.
 Additionally it will most likely be functional indefinitely and it's pretty clear what is happening.
 
-Here is an example of how moment.js fixes all those problems.
+Here is an example of how moment.js fixes all these problems. The equivalent code in moment is as follows:
 
-    let difference = moment.utc( moment.duration( moment().diff( date2 ) ).asMilliseconds());
+    let difference = moment.utc(
+      moment.duration( 
+        moment().diff( date2 ) 
+      ).asMilliseconds());
 
-By requiring a dependency chain of 4 nested functions to do the same operation moment.js achieves all the goals of a framework. There is
+By requiring a dependency chain of 3 nested functions to do the same operation moment.js achieves all the goals of a framework. There is
 no assurance of the stability, long term support, or continued relationship of any of those components. Additionally the code has been
 made impenetrable so only an inner-circle of acclimated developers will have any idea what is going on.
 
