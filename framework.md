@@ -19,7 +19,9 @@ A framework
   * breaks core assumptions about a language or system
   * limits what a user is permitted to do
   * increases complexities by adding new abstractions
-  * non-specific specifications by using unclear and imprecise language
+  * has non-specific specifications by using unclear and imprecise language
+
+You're not documenting a technology, you're marketing a product.
 
 
 ### Success story: Chef
@@ -34,13 +36,13 @@ This was essential for the early adoption of the software. For instance take the
 So no longer are we writing a script that does `apt install tool` instead all our core assumption are changed. We have new terms to learn such as:
 
  * Chef server
- * hub
- * node
  * Chef organization
- * cookbook
- * recipe
- * policy (and how it's applied)
- * node object (what it means to be available, maintained, and registered)
+ * Cookbook
+ * Hub
+ * Node
+ * Node object (what it means to be available, maintained, and registered)
+ * Recipe
+ * Policy (and how it's applied)
 
 So we're no longer configuring systems. Instead we are deep into a world of new abstractions and are fundamentally limited by these abstractions. By miring their users in endless confusion opscode (now Progress) was able to commercialize this opportunity to a successful company. 
 
@@ -49,9 +51,14 @@ So we're no longer configuring systems. Instead we are deep into a world of new 
 Frameworks work at a subconcious level. They permit the users to be constantly busy as they nurse and babysit codebase that would otherwise have
 long term stability all while staking the claim that it's the fastest and easiest solution.
 
-This means people become unfirable because 
+Because they exist primarily in a product space it's worth looking at their value proposition. Frameworks essentially 
+act as a modern facilitator to what Frederick Wislow Talor called "Soldiering" in the text "Scientific Management". 
+Essentially this means "the evasion of work or duty", the workers you wish to provide to have a vested interest in their own well-being and do not benefit from working above the defined rate of work when it will not increase their remuneration.
 
- * the systems will not continue to function without them and
+Normally a manager would have every reason to remove these programmers. To combat that, a proper framework makes sure this
+is impossible by making them unfirable. Given a product:
+
+ * the systems should not continue to function without them and
  * the code has to constantly be rewritten in order to achieve the same ends
 
 Also it permits the users to go on constant employer funded vacations to conferencces and training sessions.
