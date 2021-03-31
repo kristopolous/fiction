@@ -97,6 +97,25 @@ Additionally there's a sense of accomplishement by complicating the task to make
 
 ## Break as many ways to diagnose defects as you can find
 ### Make sure stack traces are utterly worthless
+
+Once you've obscured all the basic sanity rails of any system you have to make sure that finding out the new ones
+or how things are implemented is utterly inpenetrable. One of the ways to do this is to make sure your framework
+has dozens of layers of indirection in between function calls.
+
+This means that if say, user supplied fnA calls user-supplied fnB, and a stack-trace is called, you'll get
+the following:
+
+  < between 20-50 frames from your framework >
+  fnA
+  < between 20-50 frames from your framework >
+  fnB
+  < between 20-50 frames from your framework >
+
+The core goal that you wish to achieve is to make the developer utterly infantile and helpless, raising their hands
+and just claiming it's all "unknowable impenetrable black magic with no consistency or certainty whatsoever". This is
+to both insulate you from the risks of exposing your incompetency in your implementation and inculcate a level of
+servitude from your users where they have to rely on you anyway.
+
 ### Consume all errors and replace them with generic non-specific handlers
 ### Suppress your languages’ built-in logging capabilities 
 ### Disable simple diagnostic sanity checks by enforcing onerous linting rules
