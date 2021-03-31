@@ -116,6 +116,19 @@ and just claiming it's all "unknowable impenetrable black magic with no consiste
 to both insulate you from the risks of exposing your incompetency in your implementation and inculcate a level of
 servitude from your users where they have to rely on you anyway.
 
+#### Success Story: Laravel
+ActiveRecord style ORMs are perhaps some of the most exemplary frameworks one can find.
+
+Not only do they intentionally obscure the underlying code that is run on the database, causing innocent looking code to
+actually have hidden levels of algorithmic complexity that can make it profoundly slow, but they present an interface
+to users in order to interact with their data that requires the ORM to inject itself in perhaps dozens of levels of
+redirection.
+
+The result is the developer cannot inspect the code in any meaningful way at all and it is effectively a binary blob
+with stripped symbols that they are left poking and prodding at. It permits the framework writer to have all the
+social benefits of calling something open source but by making the code effectively low-grade cryptographically secure,
+they then harbor none of the responsibilities.
+
 ### Consume all errors and replace them with generic non-specific handlers
 ### Suppress your languages’ built-in logging capabilities 
 ### Disable simple diagnostic sanity checks by enforcing onerous linting rules
