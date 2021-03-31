@@ -48,18 +48,18 @@ So we're no longer configuring systems. Instead we are deep into a world of new 
 
 ## Slow down development as much as possible
 
-Frameworks work at a subconcious level. They permit the users to be constantly busy as they nurse and babysit codebase that would otherwise have
-long term stability all while staking the claim that it's the fastest and easiest solution.
+Frameworks work at a subconcious level. They permit the users to be constantly busy as they chaperone codebases which 
+would otherwise have long term stability all while staking the claim that it's the fastest and easiest solution.
 
-Because they exist primarily in a product space it's worth looking at their value proposition. Frameworks essentially 
-act as a modern facilitator to what Frederick Wislow Talor called "Soldiering" in the text "Scientific Management". 
+Because frameworks exist primarily in a product space it's worth looking at their value proposition. Frameworks essentially 
+act as a modern facilitator to what Frederick Winslow Talor called "Soldiering" in the text "Scientific Management". 
 Essentially this means "the evasion of work or duty", the workers you wish to provide to have a vested interest in their own well-being and do not benefit from working above the defined rate of work when it will not increase their remuneration.
 
 Normally a manager would have every reason to remove these programmers. To combat that, a proper framework makes sure this
 is impossible by making them unfirable. Given a product:
 
- * the systems should not continue to function without them and
- * the code has to constantly be rewritten in order to achieve the same ends
+ * Systems should not continue to function without the programmer and
+ * Code has to constantly be rewritten in order to achieve the same ends
 
 Also it permits the users to go on constant employer funded vacations to conferencces and training sessions.
 
@@ -74,7 +74,7 @@ From a professional programmer's point of view, the primary goals of any framewo
 By making every project asymptotically impossible to deliver vaporware, the ideal framework ensures that people
 are always doing something while at the same time nothing ever gets done. 
 
-The old is dying and the new cannot be born; in this interregnum you're on salary so make it last as long as possible.
+The old is dying and the new cannot be born; in this interregnum they're on salary so they make it last as long as possible.
 
 ## Make things as difficult as you can
 ### The maxim of maximum unreasonability
