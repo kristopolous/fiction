@@ -56,7 +56,7 @@ This means people become unfirable because
 
 Also it permits the users to go on constant employer funded vacations to conferencces and training sessions.
 
-From a professional aspect, the primary goals of any framework are to provide the users with the following:
+From a professional programmer's point of view, the primary goals of any framework are to provide the users with the following:
 
  * Job security by ensuring brittle applications
  * Endless tasks by ensuring endless complexity
@@ -64,7 +64,10 @@ From a professional aspect, the primary goals of any framework are to provide th
  * No expectations of deliverables
  * Be vague enough so blame can get shifted if things break
 
-By making every project asymptotically impossible to deliver vaporware.
+By making every project asymptotically impossible to deliver vaporware, the ideal framework ensures that people
+are always doing something while at the same time nothing ever gets done. 
+
+The old is dying and the new cannot be born; in this interregnum you're on salary so make it last as long as possible.
 
 ## Make things as difficult as you can
 ### The maxim of maximum unreasonability
@@ -80,16 +83,16 @@ Let's say in normal javascript I wanted to subtract two `Date` objects. Let's do
     let difference = Date() - date2;
 
 The problem with the above code is that it's simple and easy to understand. There is no elitism behind it and complexity is completely absent.
-Additionally it will most likely be functional indefinitely and it's pretty clear what is happening.
+Additionally it will most likely work indefinitely and it's pretty clear what is happening.
 
-Here is an example of how moment.js fixes all these problems. The equivalent code in moment is as follows:
+Here is an example of how moment.js fixes all these problems. The equivalent code in moment.js is as follows:
 
     let difference = moment.utc(
       moment.duration( 
         moment().diff( date2 ) 
       ).asMilliseconds());
 
-By requiring a dependency chain of 3 nested functions to do the same operation moment.js achieves all the goals of a framework. There is
+By requiring a dependency chain of 3 nested functions to do the same operation, moment.js achieves all the goals of a framework. There is
 no assurance of the stability, long term support, or continued relationship of any of those components. Additionally the code has been
 made impenetrable so only an inner-circle of acclimated developers will have any idea what is going on.
 
@@ -210,7 +213,7 @@ Now all you need is a huge time commitment to understand it.
 
 #### Change it completely 
 
-	Move things around every version for instances pretend you have 
+Move things around every version for instances pretend you have 
 
 
 ### Make things inflexible by crippling expression and compatibility 
