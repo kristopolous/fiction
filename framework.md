@@ -55,8 +55,9 @@ Because frameworks exist primarily in a product space it's worth looking at thei
 act as a modern facilitator to what Frederick Winslow Talor called "Soldiering" in the text "Scientific Management". 
 Essentially this means "the evasion of work or duty", the workers you wish to provide to have a vested interest in their own well-being and do not benefit from working above the defined rate of work when it will not increase their remuneration.
 
-Normally a manager would have every reason to remove these programmers. To combat that, a proper framework makes sure this
-is impossible by making them unfirable. Given a product:
+Normally a manager would have every reason to dismiss these programmers. To combat this natural inclination, a proper framework makes sure this is impossible by making them unfirable. 
+
+Given a product:
 
  * Systems should not continue to function without the programmer and
  * Code has to constantly be rewritten in order to achieve the same ends
