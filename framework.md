@@ -1,10 +1,10 @@
 # Principles of Framework Design
 
 Whether you're a contracting firm that wants to lock your client list in by using a technology stack that nobody else knows or you're an 
-independent developer who wants to increase the word count of your resume to try and negotiate a higher pay there's nothing quite like 
+independent developer who wants to increase the word count of your resume to negotiate a higher pay there's nothing quite like 
 creating your own framework.
 
-The following text is a set of guiding principles for frameworks. A framework-framework if you will. The text outlines how to structure your
+The following text is a set of guiding principles for framework writing. A framework-framework. The text outlines how to structure your
 project using scholarly literature on cults and organizational anti-pattern studies that ensure job security regardless of someone's competency.
 
 By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
@@ -14,12 +14,28 @@ For users of frameworks the text helps by outlining the social dynamics and purp
 able to understand and approach frameworks better in the future by applying the principles which lead to their popularity.
 
 ## What is a framework anyway?
+
+There's some debate over what a framework versus a library is.
+
+So let's start with a definitions.
+
 A framework 
   
   * breaks core assumptions about a language or system
   * limits what a user is permitted to do
   * increases complexities by adding new abstractions
   * has non-specific specifications by using unclear and imprecise language
+
+Let's take these one by one.
+
+### Breaks core assumptions 
+Unlike a library which seeks to work within existing ecosystems, frameworks intend to create new ones.
+
+In order to wall the framework garden things have to be approached
+in fundamentally different ways.
+
+### Increases complexities by adding new abstractions
+Leaky abstractions
 
 You're not documenting a technology, you're marketing a product.
 
