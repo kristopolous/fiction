@@ -177,13 +177,14 @@ Now there's a lot of questions that come up here:
 
   * what if something(x) isn't idempotent? Well you forbid that.
   * what if something(x) is expensive? *shrug*
-  * what if returning nothing isn't a failure condition? Now they'll have to write wrappers
+  * what if returning nothing isn't a failure condition? Ah! Wrapper function
 
-Speaking of wrappers now you've forced a new function to factor out the above.
+Speaking of wrapper functions, let's do that to "refactor", Our code now looks like this::
 
     something_else_else(x) {
       return something(x) && something_else(something(x);
     }
+
     { x ?
         ( something_else_else(x) ?
           (y < (something_else_else(x))) ?
@@ -196,12 +197,14 @@ Speaking of wrappers now you've forced a new function to factor out the above.
         ) : null 
     }
 
-Now let's go back to this one
+We still have a problem, the one we shrugged off:
 
   * what if something(x) is expensive?
 
-Aha, now we can do something about it! A cache. See, we've forced refactoring to require cache-invalidation and naming, the two hardest parts of programming:
+Let's do something about it! A cache! By forcing refactoring to require cache-invalidation and naming, the two hardest parts of programming,
+you've forced an increased the underlying complexity in an effort to decrease it.
 
+Our refactored code is now:
 
     defined(cache_library) || include cache_library;
 
@@ -227,9 +230,10 @@ Aha, now we can do something about it! A cache. See, we've forced refactoring to
         ) : null 
     }
 
-Oh wait, parallel programming, right, so here's our final code:
+But if we are dealing with caches on modern infrastructures we probably have to worry about race conditions. So let's make it monotonic with
+a lock. Fine. Here's our final code:
 
-We go from this:
+Without the framework
 
     if (x) {
       let w = something(x);
@@ -249,7 +253,7 @@ We go from this:
       }
     }
 
-to this:
+With the framework
 
     defined(cache_library) || include cache_library;
 
