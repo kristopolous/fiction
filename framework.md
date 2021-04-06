@@ -141,23 +141,23 @@ It's worth looking into the second option. Here's some example of what you could
 
 So instead of say structure like this:
 
-  if (x) {
-    let w = something(x);
-    if (w) {
-      let z = something_else(w);
-      if (z) {
-        if(y < z) {
-          onething
-        } else if(z > y) {
-          another
+    if (x) {
+      let w = something(x);
+      if (w) {
+        let z = something_else(w);
+        if (z) {
+          if(y < z) {
+            onething
+          } else if(z > y) {
+            another
+          } else {
+            // error 
+          }
         } else {
           // error 
         }
-      } else {
-        // error 
       }
     }
-  }
 
 You could forbid assignment and force something like this:
 
