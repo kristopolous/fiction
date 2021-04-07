@@ -185,7 +185,8 @@ Now there's a lot of questions that come up here:
   * what if something(x) is expensive? *shrug*
   * what if returning nothing isn't a failure condition? Ah! Wrapper functions!
 
-Speaking of wrapper functions, let's do that to "refactor", Our code now looks like this::
+Speaking of wrapper functions, let's do that to "refactor". 
+Our code now looks like this::
 
     something_else_else(x) {
       return something(x) && something_else(something(x));
@@ -208,7 +209,7 @@ We still have a problem, the one we shrugged off:
   * what if something(x) is expensive?
 
 Let's do something about it! A cache! By forcing refactoring to require cache-invalidation and naming, the two hardest parts of programming,
-you've forced an increased the underlying complexity in an effort to decrease it.
+you've forced an increase in the underlying complexity in an effort to decrease it.
 
 Our refactored code is now:
 
@@ -219,7 +220,7 @@ Our refactored code is now:
       if(has_value) {
         return cache_get(something_else_else, x);
       } else {
-        return cache_set(something_else_else, x);
+        return cache_set(something_else_else, x, something(x) && something_else(x));
       }
     }
 
@@ -238,7 +239,9 @@ Our refactored code is now:
 
 
 But if we are dealing with caches on modern infrastructures we probably have to worry about race conditions. So let's make it monotonic with
-a lock. Fine. Here's our final code:)
+a lock. Fine, that'll do!
+
+Here's our final code:
 
 Without the framework
 
@@ -273,11 +276,12 @@ With the framework
         if(has_value) {
           to_return = cache_get(something_else_else, x);
         } else {
-          to_return = cache_set(something_else_else, x);
+          to_return = cache_set(something_else_else, x, something(x) && something_else(x));
         }
         release_lock(lock);
         return to_return;
       } else {
+        // lock unavailable.
         return something(x) && something_else(something(x));
       }
     }
