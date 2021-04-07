@@ -40,6 +40,7 @@ Leaky abstractions
 You're not documenting a technology, you're marketing a product.
 
 
+
 ### Success story: Chef
 When the founder of chef in 2008 decided to create a framework for sysadmin tasks how would he have known it would lead to a $70 million/year company and an acquisition 12 years later.
 
@@ -92,6 +93,210 @@ By making every project asymptotically impossible to deliver vaporware, the idea
 are always doing something while at the same time nothing ever gets done. 
 
 The old is dying and the new cannot be born; in this interregnum they're on salary so they make it last as long as possible.
+
+### Encouraging Brittle Applications
+Centralizing code and shaping control flow is essential in building robust software. So a good framework should put up as many barriers to achieving these ends as possible.
+
+It should be done in *the name of* reusability and in *the name of* robust software while at the same time encouraging its exact opposite.
+
+The most popular way to achieve this is by making obvious things hard or extremely complex to implement.  For example, pretend we have a templating language for
+websites.
+
+Many websites share a look and feel on each page. Perhaps we could state them as follows:
+
+    <header>
+    <main>
+    <footer>
+
+Where header is essentially the "state" of the user and some contextual navigation, the "main" is the current region of interest and "footer" is general controls.
+
+A bad idea here would be to have separate copies of header and footer for every different kind of "main". There's many ways of doing this. Perhaps you could have
+
+    function generateHeader() {
+    }
+
+    function generateFooter() {
+    }
+
+Then you can do something like
+
+
+    generateHeader(current_state)
+    main stuff
+    generateFooter()
+
+Now if this all sounds very reasonable to you you haven't acclimated yourself to framework thinking. A proper framework designer would find fault in the above design.
+
+The nature of the complaint is effectively arbitrary because that's merely our McGuffin. The important thing is to forbid such logical things from being possible.
+
+For instance, you could forbid your template from making function calls or including other templates within it. There's enough academic programming literature to misinterpret and 
+justify just about anything. But the end result is that you will force the user to do one of two things:
+
+  * make multiple copies of the code
+  * do some enormous acrobatics to achieve the ends
+
+It's worth looking into the second option. Here's some example of what you could do. 
+
+### Enormously restrict the language to be merely short-circuit compound statements.
+
+So instead of say structure like this:
+
+  if (x) {
+    let w = something(x);
+    if (w) {
+      let z = something_else(w);
+      if (z) {
+        if(y < z) {
+          onething
+        } else if(z > y) {
+          another
+        } else {
+          // error 
+        }
+      } else {
+        // error 
+      }
+    }
+  }
+
+You could forbid assignment and force something like this:
+
+    { x ?
+        ( (something(x) && something_else(something(x))) ?
+          (y < (something(x) && something_else(something(x))) ?
+            onething : ( 
+              z > (something(x) && something_else(something(x))) ?
+                another : /* error */ 
+              )
+          )
+          : /* error */
+        ) : null 
+    }
+
+Now there's a lot of questions that come up here:
+
+  * what if something(x) isn't idempotent? Well you forbid that.
+  * what if something(x) is expensive? *shrug*
+  * what if returning nothing isn't a failure condition? Now they'll have to write wrappers
+
+Speaking of wrappers now you've forced a new function to factor out the above.
+
+    something_else_else(x) {
+      return something(x) && something_else(something(x);
+    }
+    { x ?
+        ( something_else_else(x) ?
+          (y < (something_else_else(x))) ?
+            onething : ( 
+              z > (something_else_else(x))) ?
+                another : /* error */ 
+              )
+          )
+          : /* error */
+        ) : null 
+    }
+
+Now let's go back to this one
+
+  * what if something(x) is expensive?
+
+Aha, now we can do something about it! A cache. See, we've forced refactoring to require cache-invalidation and naming, the two hardest parts of programming:
+
+
+    defined(cache_library) || include cache_library;
+
+    something_else_else(x) {
+      let has_value = cache_check(something_else_else, x);
+      if(has_value) {
+        return cache_get(something_else_else, x);
+      } else {
+        return cache_set(something_else_else, x);
+      }
+    }
+
+    cache_bust();
+    { x ?
+        ( something_else_else(x) ?
+          (y < (something_else_else(x))) ?
+            onething : ( 
+              z > (something_else_else(x))) ?
+                another : /* error */ 
+              )
+          )
+          : /* error */
+        ) : null 
+    }
+
+Oh wait, parallel programming, right, so here's our final code:
+
+We go from this:
+
+    if (x) {
+      let w = something(x);
+      if (w) {
+        let z = something_else(w);
+        if (z) {
+          if(y < z) {
+            onething
+          } else if(z > y) {
+            another
+          } else {
+            // error 
+          }
+        } else {
+          // error 
+        }
+      }
+    }
+
+to this:
+
+    defined(cache_library) || include cache_library;
+
+    something_else_else(x) {
+      defined(lock_library) || include lock_library;
+
+      if (let lock = acquire_lock(cache_check, something_else_else) && lock) {
+        let has_value = cache_check(something_else_else, x),
+            to_return;
+        if(has_value) {
+          to_return = cache_get(something_else_else, x);
+        } else {
+          to_return = cache_set(something_else_else, x);
+        }
+        release_lock(lock);
+        return to_return;
+      } else {
+        return something(x) && something_else(something(x));
+      }
+    }
+
+    cache_bust();
+    { x ?
+        ( something_else_else(x) ?
+          (y < (something_else_else(x))) ?
+            onething : ( 
+              z > (something_else_else(x))) ?
+                another : /* error */ 
+              )
+          )
+          : /* error */
+        ) : null 
+    }
+
+
+In this way, every effort to refactor thus increases the overall amount of code and the call-graph complexity. 
+Additionally because we create needless problems with effectively arbitrary restrictions, code has to address
+entirely invented problems that come as a direct result of this and have absolutely nothing to do with the task
+at hand. Before the framework it was a few simple branching statements. Now we have naming issues, cache invalidation, 
+deadlocks, idempotency issues, and dependency injection all because we decided to restrict things in the name of
+making things simpler.
+
+
+
+Ideas are impossible to execute
+Code refactoring only increases complexity
+
 
 ## Make things as difficult as you can
 ### The maxim of maximum unreasonability
