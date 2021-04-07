@@ -225,9 +225,9 @@ Our refactored code is now:
     cache_bust();
     { x ?
         ( something_else_else(x) ?
-          (y < (something_else_else(x))) ?
+          (y < something_else_else(x)) ?
             onething : ( 
-              z > (something_else_else(x))) ?
+              z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
@@ -283,9 +283,9 @@ With the framework
     cache_bust();
     { x ?
         ( something_else_else(x) ?
-          (y < (something_else_else(x))) ?
+          (y < something_else_else(x)) ?
             onething : ( 
-              z > (something_else_else(x))) ?
+              z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
