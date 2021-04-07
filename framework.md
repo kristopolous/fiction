@@ -159,7 +159,12 @@ So we would like to eliminate people from writing easy to maintain commprehensib
       }
     }
 
-You could forbid assignment and force something like this:
+We are going to do it with two simple rules: 
+
+  * no assignments allowed
+  * must be a single comprehension
+
+Thus we get this:
 
     { x ?
         ( (something(x) && something_else(something(x))) ?
