@@ -168,9 +168,9 @@ Thus we get this:
 
     { x ?
         ( (something(x) && something_else(something(x))) ?
-          (y < (something(x) && something_else(something(x))) ?
+          ( (y < (something(x) && something_else(something(x)))) ?
             onething : ( 
-              z > (something(x) && something_else(something(x))) ?
+              (z > (something(x) && something_else(something(x)))) ?
                 another : /* error */ 
               )
           )
@@ -192,9 +192,9 @@ Speaking of wrapper functions, let's do that to "refactor", Our code now looks l
 
     { x ?
         ( something_else_else(x) ?
-          (y < something_else_else(x)) ?
+          ( (y < something_else_else(x)) ?
             onething : ( 
-              z > something_else_else(x)) ?
+              (z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
@@ -225,9 +225,9 @@ Our refactored code is now:
     cache_bust();
     { x ?
         ( something_else_else(x) ?
-          (y < something_else_else(x)) ?
+          ( (y < something_else_else(x)) ?
             onething : ( 
-              z > something_else_else(x)) ?
+              (z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
@@ -235,8 +235,9 @@ Our refactored code is now:
         ) : null 
     }
 
+
 But if we are dealing with caches on modern infrastructures we probably have to worry about race conditions. So let's make it monotonic with
-a lock. Fine. Here's our final code:
+a lock. Fine. Here's our final code:)
 
 Without the framework
 
@@ -283,16 +284,15 @@ With the framework
     cache_bust();
     { x ?
         ( something_else_else(x) ?
-          (y < something_else_else(x)) ?
+          ( (y < something_else_else(x)) ?
             onething : ( 
-              z > something_else_else(x)) ?
+              (z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
           : /* error */
         ) : null 
     }
-
 
 In this way, every effort to refactor thus increases the overall amount of code and the call-graph complexity. 
 Additionally because we create needless problems with effectively arbitrary restrictions, code has to address
