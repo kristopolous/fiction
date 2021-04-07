@@ -139,7 +139,7 @@ It's worth looking into the second option. Here's some example of what you could
 
 ### Enormously restrict the language to be merely short-circuit compound statements.
 
-So instead of say structure like this:
+So we would like to eliminate people from writing easy to maintain commprehensible code like this:
 
     if (x) {
       let w = something(x);
