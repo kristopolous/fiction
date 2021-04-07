@@ -192,9 +192,9 @@ Speaking of wrapper functions, let's do that to "refactor", Our code now looks l
 
     { x ?
         ( something_else_else(x) ?
-          (y < (something_else_else(x))) ?
+          (y < something_else_else(x)) ?
             onething : ( 
-              z > (something_else_else(x))) ?
+              z > something_else_else(x)) ?
                 another : /* error */ 
               )
           )
