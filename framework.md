@@ -182,12 +182,12 @@ Now there's a lot of questions that come up here:
 
   * what if something(x) isn't idempotent? Well you forbid that.
   * what if something(x) is expensive? *shrug*
-  * what if returning nothing isn't a failure condition? Ah! Wrapper function
+  * what if returning nothing isn't a failure condition? Ah! Wrapper functions!
 
 Speaking of wrapper functions, let's do that to "refactor", Our code now looks like this::
 
     something_else_else(x) {
-      return something(x) && something_else(something(x);
+      return something(x) && something_else(something(x));
     }
 
     { x ?
