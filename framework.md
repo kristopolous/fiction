@@ -137,7 +137,7 @@ justify just about anything. But the end result is that you will force the user 
 
 It's worth looking into the second option. Here's some example of what you could do. 
 
-### Enormously restrict the language to make all refactoring efforts futile
+### Restrict the language to make all refactoring efforts futile
 
 In our templating language, we would like to eliminate the ability to write maintainable, 
 comprehensible code like this:
