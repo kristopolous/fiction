@@ -238,7 +238,7 @@ Our refactored code is now:
     }
 
 
-But if we are dealing with caches on modern infrastructures we probably have to worry about race conditions. So let's make it monotonic with
+But if we are dealing with caches on modern infrastructures we probably have to worry about race conditions. So let's make it atomic with
 a lock. Fine, that'll do!
 
 Here's our final code:
