@@ -88,23 +88,26 @@ can also be found in religion, politics, the arts, and for our topic, software f
 
 That's why the terminology in one of these systems can be readily found in another. For instance, The Rails Doctrine uses the words 
 "movement", "doctrine", "originality", "fundamental", "tribe", "heretical" and "nature" all within the 127 words contained within 
-the first 2 paragraphs. The orthodoxy is more important than the problem.
+the first 2 paragraphs. The adherence to orthodoxy is more important than whatever problem the user has.
 
-The important thing is the preoccupation with the strive for aesthetic authenticty is the practice. The purpose of ballet is to do
-the practice of ballet in some factioned form of originalism, such as the Vaganova method, in the purest and most natural way possible.
+The important thing is the preoccupation with the strive for aesthetic authenticty is the actual practice. The purpose of ballet is to do
+the practice of ballet in some factioned form of originalism, such as the Vaganova method, in the purest and most natural way possible. 
+Ultimately it is to seek no other end.  Any other concern is secondary.  We dance to dance.
 
-Any other concern is secondary. Because everything must conform to the doctrine first and foremost, reality has to be melded and shaped to
+Because everything must conform to the doctrine first and foremost, reality has to be melded and shaped to
 fit inside the aesthetics.  That's why religion, the arts and politics are ineffective tools for problem solving.  Everything has to be done backwards. 
-Practical solutions are forbidden and instead have to first fully exist and then be massaged and interpreted so as not to be heretical and conform to 
-the doctrine.
+Practical solutions have to first fully exist and then be massaged and interpreted so as not to be heretical and conform to the doctrine.
 
 In order to secure the fundamentalist facade, realities, problems and solutions have to either be positioned in a way so as not to cause cognitive 
 dissonance or denied as a reality. The principle of denial existing within an orthodoxy is a strong psychological edifice. It permits one to deny
 responsibility and not have to worry about things outside the doctrine by rationalizing or imagining away problems.
 
-This is a core mechanism that permits the narrative structures to be considered simple or objective, it's a fundamental othering.
+This is a core mechanism that permits the narrative structures to be considered simple or objective, it's a fundamental othering. When people say
+software frameworks makes "life simpler" they are doing this fundamental othering.
 
-When reality falls outside the doctrine instead of fixing the assumption more often the orthodoxy is amended.
+If reality falls outside the doctrine and really can't be denied then instead of fixing the assumption more often the orthodoxy is amended. A new
+wing in politics, a new testament in religion, a new movement in the arts, and a new version in software. It permits the avoidance of admitting
+the failures of orthodoxy while permitting a mechanism to address its shortcomings.
 
 ### Success story: React
 
