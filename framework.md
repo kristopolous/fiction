@@ -109,6 +109,9 @@ If reality falls outside the doctrine and really can't be denied then instead of
 wing in politics, a new testament in religion, a new movement in the arts, and a new version in software. It permits the avoidance of admitting
 the failures of orthodoxy while permitting a mechanism to address its shortcomings.
 
+This of course fundamentally increases the complexity as many circuitous and clever solutions are offered that don't violate the aesthetic principles
+of the doctrinal beliefs.
+
 ### Success story: React
 
 ReactJS has a wildly inflexible architecture that aggressively forces their users to conform to an orthodoxy.  As an example let's say we have the following
