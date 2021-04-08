@@ -185,6 +185,21 @@ Claiming that
 
 Was an actual death sentence.
 
+The great success of React is in enforcing a new kind of authoritarianism.  So react enforces the doctrine by explicitly
+disallowing heretical code. 
+
+It's effectively an authoritarian and maintains equilibruim, as Adam Przeworski claims "mainly on lies, fear and economic prosperity".
+
+There needs to be an economic value to the doctrine perceived in the mind of the prospect.
+There has to be a fear of losing out or falling behind by not adhering to the orthodoxy
+The core claims have to be fundamentally, exhaustively and obviously fraudulent.
+
+React does this boldly on the first two sentences of their homepage:
+
+"React makes it painless to create interactive UIs. Design simple views for each state in your application"
+
+The thing that they intrinsically complicate the most is what they claim they do the opposite of. Therein lies the
+paradox of the cognitive dissonance as outlined above.
 
 orthodoxy is an extremeley poor tool
 to solve any actual problem. 
