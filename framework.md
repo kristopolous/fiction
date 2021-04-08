@@ -64,7 +64,7 @@ So no longer are we writing a script that does `apt install tool` instead all ou
 
 So we're no longer configuring systems. Instead we are deep into a world of new abstractions and are fundamentally limited by these abstractions. By miring their users in endless confusion opscode (now Progress) was able to commercialize this opportunity to a successful company. 
 
-## Establishing core principles
+## Establishing Core Principles
 
 All frameworks hinge on a set of core principles or beliefs we'll call a doctrine. Doctrines are unwavering assertions about the world
 which are presumed to be natural. The set of doctrines form an ideological foundation, this is the framework.
