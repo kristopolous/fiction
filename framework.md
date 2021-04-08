@@ -122,7 +122,7 @@ code
 
 This small snippet of code violates "best practices" in react and thus is almost, but not quite impossible to do.
 
-See the problem here is that b and a are directly interacting with each other. If we were to map things in react-land, they would 
+See the problem here is that B and A are directly interacting with each other. If we were to map things in react-land, they would 
 show that c has "children" of A and B and here A and B talk to each other "horizontally" which is heretic to the purity of the 
 orthodoxy.
 
@@ -195,14 +195,14 @@ We now do
 
 Or as a diagram, we get the following:
 
-       .---◢  ◣---.
+       .---◢ ◣----.
      .▶B---▶C--.   \
      |  ◤--'|\  ▼  /
       \____/  '►A-'
 
 See how we do multiple round trips passing things through C in order to maintain the hierarchy? This is how we stay within the orthodoxy
 
-If this looks like Ptolemiac astonomy, that's not a coincidence! In Ptylomeiac astronomy the ludicrous assumption of the earth being
+If this looks like Ptolemaic astonomy, that's not a coincidence! In Ptolemaic astronomy the assumption of Earth being
 the center of the universe was enforced as the orthodoxy.  As a result you got epicycles upon epicycles because the simpler model was
 forbidden.
 
