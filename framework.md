@@ -40,6 +40,7 @@ Leaky abstractions
 You're not documenting a technology, you're marketing a product.
 
 
+### has non-specific specifications by using unclear and imprecise language
 
 ### Success story: Chef
 When the founder of chef in 2008 decided to create a framework for sysadmin tasks how would he have known it would lead to a $70 million/year company and an acquisition 12 years later.
@@ -62,6 +63,56 @@ So no longer are we writing a script that does `apt install tool` instead all ou
  * Policy (and how it's applied)
 
 So we're no longer configuring systems. Instead we are deep into a world of new abstractions and are fundamentally limited by these abstractions. By miring their users in endless confusion opscode (now Progress) was able to commercialize this opportunity to a successful company. 
+
+## Establishing core principles
+
+All frameworks hinge on a set of core principles or beliefs we'll call a doctrine. Doctrines are unwavering assertions about the world
+which are presumed to be natural. The set of doctrines forms an ideological foundation, this is the framework.
+
+For instance, ruby on rails has document they call "The Rails Doctrine", which as of this writing is linked to on their homepage. 
+In it they have a set of 9 core beliefs which they call "the most important pillars".
+
+In philosophy, the level of adherence to a doctrine is called aesthetics.  Something that is "beautiful" adheres highly to a given doctrine.
+The aesthetical becomes the goal and the practitioner is judged based on the conformity to the aesthetics.  People with high conformity are
+often described using the term nature or natural.
+
+The group of people preoccupied with the pursuit of this aesthetic who practice the conformity form a tribe. Sometimes tribes can have 
+disagreements with each other over the "true nature" or "originalism" of the aesthetic and thus split into factions.
+
+Take ballet for instance. There's core beliefs about geometry expressed in the human body and people seeking the purity of this form, 
+a fundamentalist interpretation of the principles, forms the aesthetic of the art. Same is true for the musicians in the orchestra pit
+which only work as an ensemble if everyone is preoccupied with conformity to the music to be played.
+
+This nexus of the aesthetics in the conformity to a doctrine, often called fundamentalism and its practice, often called orthodoxy 
+can also be found in religion, politics, the arts, and software frameworks.
+
+That's why the terminology in one of these systems can be readily found in another. For instance, The Rails Doctrine uses the words 
+movement, doctrine, originality, fundamental, tribe, heretical and nature by the end of the 2nd paragraph (word 127).
+
+The important thing is the preoccupation with the strive for aesthetic authenticty is the practice. The purpose of ballet is to do
+the practice of ballet in some factioned form of originalism, such as the Vaganova method, in the purest and most natural way possible.
+
+Any other concern is secondary. Because everything must conform to the doctrine first and foremost, reality has to be melded and shaped to
+fit inside the aesthetics.  That's why religion, the arts and politics are ineffective tools for problem solving.  Everything has to be done backwards. 
+Something has to first exist and then be massaged and interpreted so as not to be heretical and conform to the doctrine.
+
+
+
+orthodoxy is an extremeley poor tool
+to solve any actual problem. 
+This is why orthodox religion and politics 
+
+t.. actice, called the that whatever the doctrine is, the framework exists to be in service to the doctrine.  It is not supposed to facilitate
+the user in addressing problems, but is instead supposed to be the purest expression possible of the underlying doctrine.
+
+These 
+
+The group of peers concerned with the 
+This is true 
+
+Conformity Tribalism Orthodoxy and Fundamenalism
+
+
 
 ## Slow down development as much as possible
 
@@ -308,14 +359,19 @@ making things simpler.
 
 
 
-Ideas are impossible to execute
-Code refactoring only increases complexity
-
-
 ## Make things as difficult as you can
 ### The maxim of maximum unreasonability
 
+Outside of the world of programming there are terms "orthodox" and "fundamentalism". 
+Core beliefs
+Orthodoxy 
+Fundamentalism
+
+
+Consistent orthodoxy and philosophy 
 Make easy things hard and hard things nearly impossible. 
+
+Ideas are impossible to execute
 
 ### Success Story: Moment.js
 Javascript's Date object takes a little bit of work to understand. Because nobody was promoting how to properly used it this provided a
