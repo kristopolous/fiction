@@ -156,10 +156,10 @@ into "classes" to make things more orthodox.
 
 So here is how our flow looks now:
 
-     .---◢  ◣---.
-   .►b---►C      \
-   |  ◤--'|\     /
-    \____/  '►a-'
+       .---◢  ◣---.
+     .►b---►C      \
+     |  ◤--'|\     /
+      \____/  '►a-'
 
 See how we do multiple round trips passing things through C in order to maintain the hierarchy? This is how we stay within the orthodoxy
 
