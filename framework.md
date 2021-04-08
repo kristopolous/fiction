@@ -96,6 +96,41 @@ Any other concern is secondary. Because everything must conform to the doctrine 
 fit inside the aesthetics.  That's why religion, the arts and politics are ineffective tools for problem solving.  Everything has to be done backwards. 
 Something has to first exist and then be massaged and interpreted so as not to be heretical and conform to the doctrine.
 
+When reality falls outside the doctrine instead of fixing the assumption more often the orthodoxy is amended.
+
+### Success story: React
+
+ReactJS has a wildly inflexible architecture that aggressively forces their users to conform to an orthodoxy.  As an example let's say we have the following
+code
+
+  function c() {
+    var a = first();
+    var b = second();
+
+    b.onclick = function() { 
+      a.dosomething();
+    }
+  }
+
+This small snippet of code violates "best practices" in react and thus is almost, but not quite impossible to do.
+
+See the problem here is that b and a are directly interacting with each other. If we were to map things in react-land, they would 
+show that c has "children" of a and b and here a and b talk to each other "horizontally" which is heretic to the purity of the 
+orthodoxy.
+
+The hierarchical nature here is an unwavering assertion about the world. Essentially the claim is as follows:
+
+      c
+     / \
+    a---b
+
+The a <=> b is what forces us to wear a scarlet letter and live on the edge of the town.
+
+Therefore we no longer solve a problem. Instead, we are imposed upon us an aesthetic puritism do to a natural belief of "props down, events up". 
+A popular way to do this basic programming technique that's been readily available in effectively every programming language since the first 
+digital computer (Plankalkül had it in 1942) is the usual suspects:
+
+  * add "a new testament" to the orthodoxy with redux
 
 
 orthodoxy is an extremeley poor tool
