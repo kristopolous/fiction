@@ -190,9 +190,9 @@ disallowing heretical code.
 
 It's effectively an authoritarian and maintains equilibruim, as Adam Przeworski claims "mainly on lies, fear and economic prosperity".
 
-There needs to be an economic value to the doctrine perceived in the mind of the prospect.
-There has to be a fear of losing out or falling behind by not adhering to the orthodoxy
-The core claims have to be fundamentally, exhaustively and obviously fraudulent.
+ * There needs to be an economic value to the doctrine perceived in the mind of the prospect.
+ * There has to be a fear of losing out or falling behind by not adhering to the orthodoxy
+ * The core claims have to be fundamentally, exhaustively and obviously fraudulent.
 
 React does this boldly on the first two sentences of their homepage:
 
@@ -699,3 +699,37 @@ and file systems.
 
 The attribution instantly gives your project merit in many people's eyse without any further consideration neccessary.
 
+--
+
+Afterwards
+
+Let me drop the silicon valley business guy facade.
+
+All institutions are human institutions and computer related ones are
+no different. The same mechanisms that can drive any other system into madness
+can happen to computers as well.
+
+In a way these toxic systems can only thrive in environments where they
+are given the privilege to exist.
+
+It's the very nature of the maturity of our technology, the increase in computing speed
+And the amount of money flowing through the industry that provides the necessary conditions
+For these systems to arise. Protected ignorance is a privilege that means
+Hard realities aren't forced through tight constraints.
+
+In the same way that high profits can make the most wreckless management practices not
+Have any consequences, the current conditions give us the room for
+The festering of the worst tendencies of the human condition.
+
+The disasters are thus never truly disasters because the success or failure of the product was
+ultimately irrelevant.
+
+And finally, to answer the question "well, what would you do instead?"
+
+"Direct solutions to problems with the least amount of concerns to aesthetics possible"
+
+What does that look like? It's intentionally unspecified. The disconcert for aesthetics isn't
+an aesthetic. It's an eschewing of the practice. A disregarding of the epistemology. 
+Aggressively non prescriptive and anti authoritarian.
+
+Instead, be able to recognize the pattern and please, don't believe the hype.
