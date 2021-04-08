@@ -87,7 +87,8 @@ This nexus of the aesthetics in the conformity to a doctrine, often called funda
 can also be found in religion, politics, the arts, and for our topic, software frameworks.
 
 That's why the terminology in one of these systems can be readily found in another. For instance, The Rails Doctrine uses the words 
-movement, doctrine, originality, fundamental, tribe, heretical and nature by the end of the 2nd paragraph (word 127).
+"movement", "doctrine", "originality", "fundamental", "tribe", "heretical" and "nature" all within the 127 words contained within 
+the first 2 paragraphs.
 
 The important thing is the preoccupation with the strive for aesthetic authenticty is the practice. The purpose of ballet is to do
 the practice of ballet in some factioned form of originalism, such as the Vaganova method, in the purest and most natural way possible.
