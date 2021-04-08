@@ -70,7 +70,7 @@ All frameworks hinge on a set of core principles or beliefs we'll call a doctrin
 which are presumed to be natural. The set of doctrines form an ideological foundation, this is the framework.
 
 For instance, Ruby on Rails has a document they call "The Rails Doctrine", which as of this writing is linked to on their homepage. 
-In it they have a set of 9 core beliefs which they call "the most important pillars".
+In it they have a set of "the most important pillars", a listing of core beliefs.
 
 In philosophy, the level of adherence to a doctrine is called aesthetics.  Something that is "beautiful" adheres highly to a given doctrine.
 The aesthetical becomes the goal and the practitioner is judged based on the conformity to the aesthetics.  People with high conformity are
