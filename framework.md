@@ -142,16 +142,26 @@ called "redux" or figure out an acrobatic way to comply.
 Let's do the second. So we need to "pass down" things that will "pass up". We have a solution, now we must go backwards, first we will go 
 into "classes" to make things more orthodox.
 
-    class a {
+    class A {
+      componentDidMount() {
+        this.props.connector(this);
+      }
+      something() {
+        console.log('hi');
+      }
+      render() {
+        return;
+      }
     };
 
-    class b {
-
+    class B {
+      render() {
+        return <div onClick={ this.props.onClick }>
+      }
     };
 
-    class c {
+    class C {
       constructor() {
-        // ceremony
         super(props);
 
         // here's our connecting function
@@ -159,31 +169,47 @@ into "classes" to make things more orthodox.
         this.state = {connector: ''};
       }
 
-      connector(
+      connector(obj) {
+        this.setState({connector: obj});
+      }
+
+      onclick() {
+        this.state.connector.something();
+      }
+
+      render() {
+        return (
+          <A connector={ this.connector } />
+          <B onClick={ this.onclick } />
+        );
+      }
     };
 
-So here is how our flow looks now:
+So to simplify this flow
+
+    A -> B
+
+We now do
+
+    C -> A -> C -> B -> C -> A
+
+Or as a diagram, we get the following:
 
        .---◢  ◣---.
-     .►b---►C      \
-     |  ◤--'|\     /
-      \____/  '►a-'
+     .▶B---▶C--.   \
+     |  ◤--'|\  ▼  /
+      \____/  '►A-'
 
 See how we do multiple round trips passing things through C in order to maintain the hierarchy? This is how we stay within the orthodoxy
 
-If this looks like ptolemiac astonomy, that's not a coincidence! In Ptylomeiac astronomy the ludicrous assumption of the earth being
+If this looks like Ptolemiac astonomy, that's not a coincidence! In Ptylomeiac astronomy the ludicrous assumption of the earth being
 the center of the universe was enforced as the orthodoxy.  As a result you got epicycles upon epicycles because the simpler model was
 forbidden.
 
+
 People were so committed to the more convoluted orthodoxy that anyone who questioned it was literally burned alive for heresy.
 
-Claiming that 
-
-      c
-     / \
-    a---b
-
-Was an actual death sentence.
+Claiming that A -> B was even possible would have been an actual death sentence.
 
 The great success of React is in enforcing a new kind of authoritarianism.  So react enforces the doctrine by explicitly
 disallowing heretical code. 
