@@ -67,9 +67,9 @@ So we're no longer configuring systems. Instead we are deep into a world of new 
 ## Establishing core principles
 
 All frameworks hinge on a set of core principles or beliefs we'll call a doctrine. Doctrines are unwavering assertions about the world
-which are presumed to be natural. The set of doctrines forms an ideological foundation, this is the framework.
+which are presumed to be natural. The set of doctrines form an ideological foundation, this is the framework.
 
-For instance, ruby on rails has document they call "The Rails Doctrine", which as of this writing is linked to on their homepage. 
+For instance, Ruby on Rails has a document they call "The Rails Doctrine", which as of this writing is linked to on their homepage. 
 In it they have a set of 9 core beliefs which they call "the most important pillars".
 
 In philosophy, the level of adherence to a doctrine is called aesthetics.  Something that is "beautiful" adheres highly to a given doctrine.
