@@ -95,7 +95,14 @@ the practice of ballet in some factioned form of originalism, such as the Vagano
 
 Any other concern is secondary. Because everything must conform to the doctrine first and foremost, reality has to be melded and shaped to
 fit inside the aesthetics.  That's why religion, the arts and politics are ineffective tools for problem solving.  Everything has to be done backwards. 
-Something has to first exist and then be massaged and interpreted so as not to be heretical and conform to the doctrine.
+Practical solutions are forbidden and instead have to first fully exist and then be massaged and interpreted so as not to be heretical and conform to 
+the doctrine.
+
+In order to secure the fundamentalist facade, realities, problems and solutions have to either be positioned in a way so as not to cause cognitive 
+dissonance or denied as a reality. The principle of denial existing within an orthodoxy is a strong psychological edifice. It permits one to deny
+responsibility and not have to worry about things outside the doctrine by rationalizing or imagining away problems.
+
+This is a core mechanism that permits the narrative structures to be considered simple or objective, it's a fundamental othering.
 
 When reality falls outside the doctrine instead of fixing the assumption more often the orthodoxy is amended.
 
