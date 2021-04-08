@@ -248,6 +248,15 @@ are always doing something while at the same time nothing ever gets done.
 
 The old is dying and the new cannot be born; in this interregnum they're on salary so they make it last as long as possible.
 
+### Job security through obscurity
+In trades where theres no guilds or unions, there's a tendency to create career protection through other forms of tribal qualification systems or arcane knowledge.
+Making things intentionally complicated so that only a select few people can comprehend them is a common way to capture and exercise power.
+
+People adopt the patterns because they want to have the perceived protective properties of the obscurities.
+
+Worlds of irrelevant relations and materially meaningless abstractions are essentially how fields such as fortune telling and astrology continue unabated.
+The form becomes the function and the elaborations its aesthetic.
+
 ### Encouraging Brittle Applications
 Centralizing code and shaping control flow is essential in building robust software. So a good framework should put up as many barriers to achieving these ends as possible.
 
