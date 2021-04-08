@@ -111,28 +111,28 @@ When reality falls outside the doctrine instead of fixing the assumption more of
 ReactJS has a wildly inflexible architecture that aggressively forces their users to conform to an orthodoxy.  As an example let's say we have the following
 code
 
-    function c() {
-      var a = {something: function(){ console.log("hi"); }};
-      var b = document.createElement('div');
+    function C() {
+      var A = {
+            something: () => console.log("hi")
+          }, 
+          B = document.createElement('div');
 
-      b.onclick = function() { 
-        a.something();
-      }
+      B.onclick = () => A.something();
     }
 
 This small snippet of code violates "best practices" in react and thus is almost, but not quite impossible to do.
 
 See the problem here is that b and a are directly interacting with each other. If we were to map things in react-land, they would 
-show that c has "children" of a and b and here a and b talk to each other "horizontally" which is heretic to the purity of the 
+show that c has "children" of A and B and here A and B talk to each other "horizontally" which is heretic to the purity of the 
 orthodoxy.
 
 The hierarchical nature here is an unwavering assertion about the world. Essentially the claim is as follows:
 
-      c
+      C
      / \
-    a---b
+    A---B
 
-The a <=> b is what forces us to wear a scarlet letter and live on the edge of the town.
+The A <=> B is what forces us to wear a scarlet letter and live on the edge of the town.
 
 Therefore we no longer solve a problem. Instead, we are imposed upon us an aesthetic puritism do to a natural belief of "props down, events up". 
 A popular way to do this basic programming technique that's been readily available in effectively every programming language since the first 
