@@ -103,14 +103,14 @@ When reality falls outside the doctrine instead of fixing the assumption more of
 ReactJS has a wildly inflexible architecture that aggressively forces their users to conform to an orthodoxy.  As an example let's say we have the following
 code
 
-  function c() {
-    var a = first();
-    var b = second();
+    function c() {
+      var a = {something: function(){ console.log("hi"); }};
+      var b = document.createElement('div');
 
-    b.onclick = function() { 
-      a.dosomething();
+      b.onclick = function() { 
+        a.something();
+      }
     }
-  }
 
 This small snippet of code violates "best practices" in react and thus is almost, but not quite impossible to do.
 
@@ -128,9 +128,54 @@ The a <=> b is what forces us to wear a scarlet letter and live on the edge of t
 
 Therefore we no longer solve a problem. Instead, we are imposed upon us an aesthetic puritism do to a natural belief of "props down, events up". 
 A popular way to do this basic programming technique that's been readily available in effectively every programming language since the first 
-digital computer (Plankalkül had it in 1942) is the usual suspects:
+digital computer (Plankalkül had it in 1942) is the usual suspects either add "a new testament" to the orthodoxy, in this case with something
+called "redux" or figure out an acrobatic way to comply.  
 
-  * add "a new testament" to the orthodoxy with redux
+Let's do the second. So we need to "pass down" things that will "pass up". We have a solution, now we must go backwards, first we will go 
+into "classes" to make things more orthodox.
+
+    class a {
+    };
+
+    class b {
+
+    };
+
+    class c {
+      constructor() {
+        // ceremony
+        super(props);
+
+        // here's our connecting function
+        this.connector = this.connector.bind(this);
+        this.state = {connector: ''};
+      }
+
+      connector(
+    };
+
+So here is how our flow looks now:
+
+     .---◢  ◣---.
+   .►b---►C      \
+   |  ◤--'|\     /
+    \____/  '►a-'
+
+See how we do multiple round trips passing things through C in order to maintain the hierarchy? This is how we stay within the orthodoxy
+
+If this looks like ptolemiac astonomy, that's not a coincidence! In Ptylomeiac astronomy the ludicrous assumption of the earth being
+the center of the universe was enforced as the orthodoxy.  As a result you got epicycles upon epicycles because the simpler model was
+forbidden.
+
+People were so committed to the more convoluted orthodoxy that anyone who questioned it was literally burned alive for heresy.
+
+Claiming that 
+
+      c
+     / \
+    a---b
+
+Was an actual death sentence.
 
 
 orthodoxy is an extremeley poor tool
