@@ -88,7 +88,7 @@ can also be found in religion, politics, the arts, and for our topic, software f
 
 That's why the terminology in one of these systems can be readily found in another. For instance, The Rails Doctrine uses the words 
 "movement", "doctrine", "originality", "fundamental", "tribe", "heretical" and "nature" all within the 127 words contained within 
-the first 2 paragraphs.
+the first 2 paragraphs. The orthodoxy is more important than the problem.
 
 The important thing is the preoccupation with the strive for aesthetic authenticty is the practice. The purpose of ballet is to do
 the practice of ballet in some factioned form of originalism, such as the Vaganova method, in the purest and most natural way possible.
