@@ -80,11 +80,11 @@ The group of people preoccupied with the pursuit of this aesthetic who practice 
 disagreements with each other over the "true nature" or "originalism" of the aesthetic and thus split into factions.
 
 Take ballet for instance. There's core beliefs about geometry expressed in the human body and people seeking the purity of this form, 
-a fundamentalist interpretation of the principles, forms the aesthetic of the art. Same is true for the musicians in the orchestra pit
-which only work as an ensemble if everyone is preoccupied with conformity to the music to be played.
+a fundamentalist interpretation of the principles forms the aesthetic of the art. Same is true for the musicians in the orchestra pit
+which only work as an ensemble if everyone is preoccupied with a conformity to the music to be played.
 
 This nexus of the aesthetics in the conformity to a doctrine, often called fundamentalism and its practice, often called orthodoxy 
-can also be found in religion, politics, the arts, and software frameworks.
+can also be found in religion, politics, the arts, and for our topic, software frameworks.
 
 That's why the terminology in one of these systems can be readily found in another. For instance, The Rails Doctrine uses the words 
 movement, doctrine, originality, fundamental, tribe, heretical and nature by the end of the 2nd paragraph (word 127).
