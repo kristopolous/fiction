@@ -39,6 +39,30 @@ Leaky abstractions
 
 You're not documenting a technology, you're marketing a product.
 
+Ultimately the primary goal of any framework is to have a userflow as follows:
+
+  I wish to accomplish X, such as say, session management for a website with login.
+  Normally, I would do it in the 3 following ways, A, B, or C. None of those are allowed
+  in Framework Y. 
+
+  In order to find out how to do it in framework Y, I have to think what is the most 
+  tedious, complicated, elaborate and difficult way to do this? What is the most extreme
+  perverse and broken way to accomplish this?
+
+If that is the only way that you've permitted it to be done, and the user can get there
+through this process, then it's almost mission accomplished.  
+
+The problem is now there's a reliable strategy. Eventually the user will be able to master
+this flow and achieve things. That is as we've shown, the antithesis of any framework, because
+then it will start to fail as a psychological psyop.
+
+So this has to be inconsistently and apparently randomly applied. A great framework sabotages
+all desires and forestalls any progress by ensuring there exists no reliable or repeatable strategy  
+for getting work done. 
+
+Instead, it should impose a perpetual fog of confusion and uncertainty.
+
+
 
 ### has non-specific specifications by using unclear and imprecise language
 
