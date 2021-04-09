@@ -71,6 +71,20 @@ Instead, it should impose a perpetual fog of confusion and uncertainty.
 
 
 ### has non-specific specifications by using unclear and imprecise language
+It's important to obscure common well-defined technologies with repurposed generalized words. This is a jargon.
+
+For instance, reactjs doesn't call websockets a websocket. Instead, they use the term "subscription" and never define it.
+A user has to piece together multiple indirect references and examples to uncover they are just using a special word for
+the well-defined technology "websocket".
+
+Why go through the trouble of obscuring things?  It's important for building a user-base and sustaining it because of the kinds of empowerment jargon gives.
+
+  1. The group members feel understood because they all use the same words and it generates a sense of camaraderie (and elitism - see below).
+  1. New people may feel left out and often want to learn what the words and phrases mean, drawing them deeper into the mindset of the cult.
+  1. Complex situations are often reduced to a few words, and this begins to shut down the critical thinking of the members.
+  1. The words and phrases can dictate how the members should act in certain situations without having to make decisions. For example, one group had a phrase that meant that seniors in the hierarchy of the group were always right. So if there were any problems or disagreements, the phrase sorted everything out!
+  1. When the jargon is second nature, talking to outsiders may become tedious and awkward and this keeps group members isolated from outside influences.
+
 
 ### Success story: Chef
 When the founder of chef in 2008 decided to create a framework for sysadmin tasks how would he have known it would lead to a $70 million/year company and an acquisition 12 years later.
