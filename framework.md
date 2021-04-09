@@ -85,6 +85,9 @@ Why go through the trouble of obscuring things?  It's important for building a u
   1. The words and phrases can dictate how the members should act in certain situations without having to make decisions. For example, one group had a phrase that meant that seniors in the hierarchy of the group were always right. So if there were any problems or disagreements, the phrase sorted everything out!
   1. When the jargon is second nature, talking to outsiders may become tedious and awkward and this keeps group members isolated from outside influences.
 
+The elitism creates a binding force where people are made to feel special. It gives them a strong mission and keeps them working hard.
+Substituting real terms with made up jargon encourages slaving and sacrificing while at the same time making them obedient to the 
+doctrine.
 
 ### Success story: Chef
 When the founder of chef in 2008 decided to create a framework for sysadmin tasks how would he have known it would lead to a $70 million/year company and an acquisition 12 years later.
