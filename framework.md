@@ -271,6 +271,21 @@ This is true
 
 Conformity Tribalism Orthodoxy and Fundamenalism
 
+### Counter-example: PHP
+PHP is perhaps the epitome of the anti-framework. It lacks the evangelists and strong opinions. It's also not seen as a lucrative technology in comparison
+to the other options. As far as fear, there is a collective fear placed in the use of it, not the fear of not using it like with react. As opposed to React 
+which makes impercise claims of magic using words like "painless' and "simple", PHP's lead-in is 
+
+"PHP is a popular general-purpose scripting language that is especially suited to web development."
+
+Every statement there is objectively true. PHP is used by 79.2% of all the websites whose server-side programming language we know. Yet being the most
+popular server side language bar none, stack-overflows survey for language most beloved has PHP ranked #20 - it also ranks lowest in median salaries when
+comparing languages. So there is no economic prosperity claim, no orthodoxy, no fundamentalism, and thus, no tribe. In fact only 25% of professionals
+claimed to be PHP developers at all.
+
+By not having a set of opinions or doctrines and by not being authoritarian PHP has become something that everyone uses but nobody seems to care
+about. 
+
 
 
 ## Slow down development as much as possible
