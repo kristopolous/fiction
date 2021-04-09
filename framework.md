@@ -13,6 +13,12 @@ but also be able to convince others that it's industry best practice.
 For users of frameworks the text helps by outlining the social dynamics and purpose for the decisions made in the popular frameworks. You'll be
 able to understand and approach frameworks better in the future by applying the principles which lead to their popularity.
 
+3 parts
+
+defining the framework
+growing loyalty
+sustaining
+
 ## What is a framework anyway?
 
 There's some debate over what a framework versus a library is.
@@ -252,7 +258,7 @@ It's effectively an authoritarian and maintains equilibruim, as Adam Przeworski 
 
 React does this boldly on the first two sentences of their homepage:
 
-"React makes it painless to create interactive UIs. Design simple views for each state in your application"
+> React makes it painless to create interactive UIs. Design simple views for each state in your application
 
 The thing that they intrinsically complicate the most is what they claim they do the opposite of. Therein lies the
 paradox of the cognitive dissonance as outlined above.
