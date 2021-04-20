@@ -1,3 +1,5 @@
+Notes: Politeness hides intention
+
 # Principles of Framework Design
 
 Whether you're a contracting firm that wants to lock your client list in by using a technology stack that nobody else knows or you're an 
