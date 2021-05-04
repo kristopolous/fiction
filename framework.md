@@ -72,7 +72,7 @@ Instead, it should impose a perpetual fog of confusion and uncertainty.
 
 
 
-### has non-specific specifications by using unclear and imprecise language
+### Use non-specific specifications by using unclear and imprecise language
 It's important to obscure common well-defined technologies with repurposed generalized words. This is a jargon.
 
 For instance, reactjs doesn't call websockets a websocket. Instead, they use the term "subscription" and never define it.
@@ -113,7 +113,7 @@ So no longer are we writing a script that does `apt install tool` instead all ou
 
 So we're no longer configuring systems. Instead we are deep into a world of new abstractions and are fundamentally limited by these abstractions. By miring their users in endless confusion opscode (now Progress) was able to commercialize this opportunity to a successful company. 
 
-## Establishing Core Principles
+## Establish Core Principles
 
 All frameworks hinge on a set of core principles or beliefs we'll call a doctrine. Doctrines are unwavering assertions about the world
 which are presumed to be natural. The set of doctrines form an ideological foundation, this is the framework.
@@ -326,7 +326,7 @@ Normally a manager would have every reason to dismiss these programmers. To comb
 
 Given a product:
 
- * Systems should not continue to function without the programmer and
+ * Systems should not continue to function without the programmer 
  * Code has to constantly be rewritten in order to achieve the same ends
 
 Also it permits the users to go on constant employer funded vacations to conferencces and training sessions.
@@ -580,6 +580,50 @@ Consistent orthodoxy and philosophy
 Make easy things hard and hard things nearly impossible. 
 
 Ideas are impossible to execute
+
+### Debugging 
+There's two approaches in Debuggability for any framework:
+
+  * Misdirection
+  * Obfuscation
+
+#### Misdirection
+The purpose of misdirection is to mislead the user by say presenting them with call stacks pointing to functioning code while incorrect code
+is elsewhere or by reporting an error that clearly suggests one thing that is absolutely not how a problem should be alleviated.
+
+#### Obfuscation
+Because coming up with a plausible misdirection that doesn't immediately look like nonsense can be difficult it is often easier to just 
+write utterly incomprehensible nonsense for your error messages. Here's an example. We're going to start with say some arbitrary restriction where
+we limit who can call what function. In our imaginary framework we're going to require the user to add a magical incantation of 
+
+@declare generator
+
+in their object definition. The kinds of functions this permits you to call we'll call "factory generators" and objection that have it we'll call
+"generator factories".
+
+In our example if a user forgets the magical incantation let's start with this baseline message:
+  "Factory generators callers need to be declared as generator factories"
+
+This is a decent start. But as we can see, a user may still deduce an actionable thing to do from this. It's the caller here that needs modification.
+
+To obfuscate this we can swap the order.
+  "Only generator factories call a factory generator" 
+
+Here we've removed the obvious way to alleviate the problem. But the problem is that we're using "call" so the hierarchy can still be deduced. So let's swap
+that out
+  "Only generator factories message a factory generator"
+
+We're getting closer. The next step is to make this nearly unparsable. As we can see it's still easy english. We'll declare a collection of "factory generator" 
+to be called "factory generator factories" to get this:
+  "Only generator factories message factory generator factories"
+
+And we drop one word that makes it feel like it's still english and this yields: 
+  "Generator factories message factory generator factories"
+
+
+  : Point to functional code as incorrect 
+  * 
+
 
 ### Success Story: Moment.js
 Javascript's Date object takes a little bit of work to understand. Because nobody was promoting how to properly used it this provided a
