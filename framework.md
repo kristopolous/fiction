@@ -262,14 +262,13 @@ the center of the universe was enforced as the orthodoxy.  As a result you got e
 forbidden.
 
 
-People were so committed to the more convoluted orthodoxy that anyone who questioned it was literally burned alive for heresy.
+People were so committed to the more convoluted orthodoxy that anyone who questioned it was put on trial for heresy.
 
-Claiming that A -> B was even possible would have been an actual death sentence.
+Claiming that A -> B was even possible was the crime.
 
-The great success of React is in enforcing a new kind of authoritarianism.  So react enforces the doctrine by explicitly
-disallowing heretical code. 
+The great success of React is in enforcing a new kind of authoritarianism: it enforces doctrine by explicitly disallowing heretical code. 
 
-It's effectively an authoritarian and maintains equilibruim, as Adam Przeworski claims "mainly on lies, fear and economic prosperity".
+Longevity is achieved through a equilibrium maintaining de-facto authoritarianism and maintains equilibruim. Political scientist Adam Przeworski claims authoritarianism can reach a stable configuration "mainly on lies, fear and economic prosperity":
 
  * There needs to be an economic value to the doctrine perceived in the mind of the prospect.
  * There has to be a fear of losing out or falling behind by not adhering to the orthodoxy
