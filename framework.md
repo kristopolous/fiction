@@ -7,7 +7,7 @@ independent developer who wants to increase the word count of your resume to neg
 creating your own framework.
 
 The following text is a set of guiding principles for framework writing. A framework-framework. The text outlines how to structure your
-project using scholarly literature on cults and organizational anti-pattern studies that ensure job security regardless of someone's competency.
+project using cult and organizational anti-pattern studies that ensure job security regardless of your users competency.
 
 By the time you're done with this guide you'll be able to not only let useless nonsense flow from your fingertips 
 but also be able to convince others that it's industry best practice. 
@@ -41,6 +41,14 @@ Unlike a library which seeks to work within existing ecosystems, frameworks inte
 
 In order to wall the framework garden things have to be approached
 in fundamentally different ways.
+
+For example, many frameworks restructure error handling. If the system previously threw an error in a way that
+would allow a debugger to catch the error and step through, the frameworks new error handler would prevent that
+from being possible.
+
+If there was an option to say, change the stacksize of a backtrace, this too would be disabled. The error may
+for instance now only print out as an html page and be indecipherable from the console (for example laravel, the
+php framework) or perhaps just fail silently with no indication it was ever hit.
 
 ### Increases complexities by adding new abstractions
 Leaky abstractions
