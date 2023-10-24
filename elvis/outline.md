@@ -19,7 +19,56 @@ After reading the Casteneda books he was mezmerized with the idea of escaping to
 He could collect his thoughts, be with nobody but himself for a while, and then find out where to go from there.
 --- plan of escape
 
+Could I leave them all? I've already left Priscilla. I'd be leaving them with millions of dollars, I'm sure they'd manage. Is that really abandonment? Colonel Parker onces told me the most profitable career move a star could make is to kill themselves. Valens died at 17. I'll be gone at 2 1/2 times that. Long enough. 
+
+It's either that or a disco record. I swear, the phone calls and meetings about it are endless. A bunch of fairies doing coke. They think drafting us into the disco is going to work. They talked to me, Paul McCartney, Roger Waters, trying to cash in on the craze. Who's next on their list? Miles Davis? I'm sure they'd pay that fairy James Baldwin to write the lyrics.
+
+There I go again. These are my erroneous zones. Those thoughts help nobody. Brooding over time wasted is more wasted time. Nothing that I value will come from those types of patterns or that way of thinking. Do things people will want to remember and not those they'll try to forget.
+
+Although honestly, no disco.
+
+
+---
+
+"What would you do with say $2,000?" I asked him. He thought for a moment and responded "Pay back my sister. I've borrowed about
+$1500 from her over the years. That's a lot of money. She can't afford it and she's got a kid. That's really all I want to do."
+
+There's hundreds of people impersonating Elvis better than I can. It works better if my version of Elvis finally leaves the building.
+
+    Dear Frances, 
+
+    45 years is a long time to fail. The best years are now behind me.
+    Everyone builds a nest. Some of thems are castles and others are merely 
+    dirt. 
+
+    I don't look upon my burdensome years with aspirations and intend to 
+    commit myself to a final regret. It will be tidy.
+
+    I've enclosed $2,000, this should cover everything and then some. 
+
+    Try to remember our smiles.
+
+    Sincerely,
+    Edward
+
+
+"You get to die as Elvis and I give your sister a better life." as he pens his 
+
+Will Ginger find out? Well it's not like she's going to find me. It's important to make sure everyone around me
+barely knows me at all. That's the only way I can dissappear out in the open like this.
+
 --- a dead elvis impersonator just by luck?
+
+I figured my final time as Elvis should be spent with a fan because my gilded husk sill shines for some. 
+
+I'm still preoccupied with living vicariously through other's fickle acceptance. The impermanence of amusement and the increasing encompassing nature of it all. We drown ourselves, asphixiating, in our pasttimes, just like that Stevie Wonder song. We can't consume something without that something also consuming us and that's why it is so crucial to exercise agency in that choice.
+
+We get an impersonator to join me and than some young girl to find him dead while I'm already gone.
+
+I have to admit, I kind of liked Ginger and under other conditions, one of which includes me being 20 years younger, it might have worked out.
+In her I saw everything I had lost but nothing I had gained with age.
+
+Aligning everythig with a tour was pretty brilliant. Everything is packed and ready to go. 
 
 --- final night
 --- his slipaway
