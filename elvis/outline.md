@@ -1,12 +1,19 @@
 
+# ch
 Background story on growing up
 Ed Sullivan show, access to fame and fortune.
 You spend today working towards what you thought you wanted yesterday.
 
+# ch
 Elvis becomes disillusioned with fame
 He seeks to find other realities to experience
 He tries mod subculture, there's something too foreign and too european about it. Although he is welcome as a celebrity he finds himself to be an outsider, never really connecting or experiencing with them, just around them, like some sociologist studying a tribe.
 The psychedelic surge around 1967 interests him. It was something that was beyond him. He had hybridized everything in the 1950s to create his form of rock, this was another thing that he could latch on to.
+
+His albums are just a collection of previous studio sessions slapped together by a number of talented engineers and editors.
+
+I want him to have an alias that he releases music under
+
 However, he didn't want this to be part of his public persona. He felt for the first time, that there was a non-publicly available side of himself. There was a private elvis.`
 He tries LSD, mescalin, peyote, marijuana, all the things he can get his hands on. Privately he's forming new friends. He stops using the name elvis. These people, they know who elvis is, sure. They don't care though, and frankly, he doesn't either.
 Meanwhile his public life is locked in time. He continues to make public appearances as the man he once was. But he feels increasingly disconnected from the stage presence and the personal 
@@ -59,6 +66,7 @@ barely knows me at all. That's the only way I can dissappear out in the open lik
 
 --- a dead elvis impersonator just by luck?
 
+<<<<<<< Updated upstream
 I figured my final time as Elvis should be spent with a fan because my gilded husk sill shines for some. 
 
 I'm still preoccupied with living vicariously through other's fickle acceptance. The impermanence of amusement and the increasing encompassing nature of it all. We drown ourselves, asphixiating, in our pasttimes, just like that Stevie Wonder song. We can't consume something without that something also consuming us and that's why it is so crucial to exercise agency in that choice.
@@ -70,13 +78,22 @@ In her I saw everything I had lost but nothing I had gained with age.
 
 Aligning everythig with a tour was pretty brilliant. Everything is packed and ready to go. 
 
+=======
+# ch
+>>>>>>> Stashed changes
 --- final night
 --- his slipaway
 
 --- an airport in the mountains of sonora
 --- the pilot says he'll return in 90 days.
 
+<<<<<<< Updated upstream
 12 hour ago I was at the Las Vegas Hilton in some polyester suit with plastic rhinestones singing to a bunch of people on their honeymoons. Now here I am, the sun is cracking over a large mountain range. It's an early crisp august morning and I'm surrounded by nature in Mexico. The plane's propellers start rotating and I hear the engines as my friend waves at me and yells "remember, 90 days".
+=======
+# ch
+
+12 hour ago I was at a night club in las vegas. Now here I am, it's early morning and I'm surrounded by a forest in mexico. As the plane lifts off the ground I think back to bhagavad gita 15.7, "The embodied souls in this material world are My eternal fragmental parts. But bound by material nature, they are struggling...". I am just as alone as I was yesterday but now it's no longer just a feeling, it's a wonderful, beautiful reality.  "...struggling very hard with the six senses, including the mind". I can hear and taste the now. Life has never felt this real.  As the plane sweeps over the horizon off into the distance, I turn around, I see the single suitcase, the water canteen, and the man waiting in the truck for me to get in. 
+>>>>>>> Stashed changes
 
 I smile and wave back. But there was something different. That smile, it came from happiness. The waving back, came from warmth and excitement. There was substance behind the form.
 
