@@ -1,3 +1,8 @@
+I got famous before I knew what that was. A teen celebrity before the invention of the teenager. What does a teen do at 40?
+
+It took me two years to no longer be haunted by that question. I still don't have answers but at least I have relief. Here's my story
+
+
 I wanted to be famous like Johnnie Ray and Perry Como. 
 
 It felt exciting.  I could imagine Perry sitting in his car, his song "If" comes on the radio, the disc jockey says 'and now the song you've all been waiting for'.  I can imagine the most excited person to hear it would be Perry himself.
